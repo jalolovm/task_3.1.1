@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User</title>
+</head>
+<body>
+<h1>Profile</h1>
+
+    <h2>
+        <p th:text="${user.toString()}"/>
+    </h2>
+<br/>
+<hr/>
+<a th:href="@{/logout}">Logout</a>
+
+</body>
+</html>
